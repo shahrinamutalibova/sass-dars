@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: end;
+  margin: 40px;
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,11 @@
+@mixin flex( $j-c:center,$gap:30,$a-a:center,$margin:30){
+    display: flex;
+    justify-content: $j-c;
+    gap:$gap+px;
+    align-items: $a-a;
+    margin:$margin+px;
+}
+.container{
+    @include flex(flex-start,20,end,40);
+    background-color: red;
+}
